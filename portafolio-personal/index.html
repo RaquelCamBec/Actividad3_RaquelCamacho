@@ -15,10 +15,10 @@
 
 <body>
 
-    # Encabezado y menú de navegación -
+    <!--Encabezado y menú de navegación -->
     <header>
         <nav>
-            <h1>Raquel</h1>
+            <h1>Raquel Camacho Becerra</h1>
 
             <ul>
                 <li><a href="#inicio">Inicio</a></li>
@@ -29,10 +29,10 @@
         </nav>
     </header>
 
-    # Contenido principal 
+    <!--Contenido principal -->
     <main>
 
-        #Sección de inicio 
+        <!--Sección de inicio -->
         <section id="inicio">
             <div>
                 <p>Hola, soy</p>
@@ -45,10 +45,10 @@
                 <a href="#proyectos">Ver mis proyectos</a>
             </div>
 
-            <img src="img/perfil.jpg" alt="Fotografía de Raquel">
+            <img src="img/Yo.jpeg" alt="Fotografía de Raquel">
         </section>
 
-        # Sección sobre mí 
+        <!--Sección sobre mí -->
         <section id="sobre-mi">
             <h2>Sobre mí</h2>
 
@@ -75,16 +75,14 @@
             </ul>
         </section>
 
-       ```html
-
-        # Sección de proyectos 
+        <!--Sección de proyectos -->
         <section id="proyectos">
-            <h2>Mis proyectos</h2>
+            <h2>Proyectos</h2> <!--Cambio de título -->
 
             <article>
                 <h3>Lumina DeFi App - Vara Main Hackathon</h3>
 
-                <img src="img/proyecto.jpg" alt="Lumina DeFi App - Vara Main Hackathon">
+                <img src="img/Proyecto.jpeg" alt="Lumina DeFi App - Vara Main Hackathon">
 
                 <p>
                     During the hackathon, we initiated the development of Lumina,
@@ -101,7 +99,68 @@
                     to bring this vision to life.
                 </p>
 
-                <a href="#" target="_blank">Ver proyecto</a>
             </article>
         </section>
-```
+        </section>
+
+        <!-- Sección de contacto -->
+        <section id="contacto">
+
+            <h2>Contacto</h2>
+
+            <p>
+                Si quieres conocer más sobre mis proyectos o ponerte en
+                contacto conmigo, puedes utilizar el siguiente formulario.
+            </p>
+
+            <form>
+
+                <label for="nombre">Nombre:</label>
+                <input
+                    type="text"
+                    id="nombre"
+                    name="nombre"
+                    placeholder="Escribe tu nombre"
+                    required
+                >
+
+                <label for="correo">Correo electrónico:</label>
+                <input
+                    type="email"
+                    id="correo"
+                    name="correo"
+                    placeholder="Escribe tu correo electrónico"
+                    required
+                >
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea
+                    id="mensaje"
+                    name="mensaje"
+                    rows="5"
+                    placeholder="Escribe tu mensaje"
+                    required
+                ></textarea>
+
+                <button type="submit">Enviar mensaje</button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+
+
+        <p>
+            <a href="https://github.com/RaquelCamBec" target="_blank">GitHub</a>
+            |
+            <a href="https://www.linkedin.com/in/raquel-camacho-becerra-b5204037a/" target="_blank">LinkedIn</a>
+        </p>
+
+    </footer>
+
+</body>
+</html>
