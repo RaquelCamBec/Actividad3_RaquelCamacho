@@ -320,6 +320,52 @@ footer a:hover {
     text-decoration: underline;
 }
 
+/* Barra lateral */
+
+.contenido-con-sidebar {
+    display: flex;
+    gap: 5px;
+    align-items: stretch;
+    width: 100%;
+}
+
+.contenido-con-sidebar section {
+    flex: 1;
+}
+
+.contenido-con-sidebar aside {
+    width: 380px;
+    padding: 30px;
+    background-color: #eeeeee;
+    border-left: 5px solid #555555;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.12);
+}
+
+.contenido-con-sidebar aside h3 {
+    margin-top: 0;
+    margin-bottom: 18px;
+    color: #333333;
+    font-size: 1.15rem;
+    border-bottom: 2px solid #b5b5b5;
+    padding-bottom: 8px;
+}
+
+.contenido-con-sidebar aside ul {
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+
+.contenido-con-sidebar aside li {
+    margin-bottom: 12px;
+    color: #555555;
+}
+
+.contenido-con-sidebar aside p {
+    line-height: 1.7;
+    color: #555555;
+}
+
 
 /* Diseño para dispositivos móviles */
 
